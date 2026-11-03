@@ -1,3 +1,4 @@
+// Runs locally without Docker: plain vitest, no container or external service.
 import { describe, expect, it } from "vitest";
 import { KEY_PATTERN, SLUG_PATTERN, isValidKey, isValidSlug, slugify } from "./slug";
 
