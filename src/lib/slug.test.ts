@@ -1,3 +1,4 @@
+// Diese Datei ist lokal ohne Docker lauffähig.
 import { describe, expect, it } from "vitest";
 import { KEY_PATTERN, SLUG_PATTERN, isValidKey, isValidSlug, slugify } from "./slug";
 
